@@ -1,0 +1,67 @@
+require: rubocop-rails
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'tmp/**/*'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+    - '.git/**/*'
+    - 'config/initializers/*'
+Layout/HeredocIndentation:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Layout/LineLength:
+  Max: 120
+Rails/SkipsModelValidations:
+  Enabled: false
+Rails/UnknownEnv:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/NumericLiterals:
+  Enabled: false
+Style/SingleLineBlockParams:
+  Enabled: false
+Layout/EndOfLine:
+  Enabled: false
+Layout/EmptyLinesAroundClassBody:
+  Enabled: true
+  EnforcedStyle: beginning_only
+Rails/HelperInstanceVariable:
+  Enabled: false
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+Lint/RaiseException:
+  Enabled: false
+Lint/StructNewOverride:
+  Enabled: false
+Style/HashEachMethods:
+  Enabled: false
+Style/HashTransformKeys:
+  Enabled: false
+Style/HashTransformValues:
+  Enabled: false
+Rails/FilePath:
+  Enabled: false
+Rails/OutputSafety:
+  Enabled: false

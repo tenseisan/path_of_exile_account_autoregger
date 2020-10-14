@@ -1,0 +1,10 @@
+require 'rubygems'
+require 'bundler/setup'
+require 'anti_captcha'
+require 'mechanize'
+
+require_relative 'lib/anticaptcha_resolver'
+require_relative 'lib/getnada'
+require_relative 'lib/poe'
+require_relative 'lib/common/errors'
+require_relative 'lib/common/support'
